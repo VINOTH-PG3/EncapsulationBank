@@ -40,7 +40,7 @@ public class bank {       //class bank is created
 		Scanner debit = new Scanner(System.in);            // scanner is used to get value from user
 		System.out.println("ENTER YOUR WITHDRAW AMOUNT  ");
 		long Wamount=debit.nextLong();                       // value get from user and stored in wamount
-		 mainBalance=mainBalance+Wamount;
+		 mainBalance=mainBalance-Wamount;
 		 System.out.println("YOUR CURRENTBALACE IS  "+mainBalance);
 		
 	}
